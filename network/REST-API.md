@@ -86,16 +86,16 @@
 4. 파일 확장명은 URI에 포함하지 않는다. 
     
     ```jsx
-    good - localhost:8080/photo.jpg
-    bad  - localhost:8080/photo
+    good - localhost:8080/photo
+    bad  - localhost:8080/photo.jpg
     ```
     
 5. 행위를 포함하지 않는다.
     - 메소드에 따라 행위가 결정된다.
     
     ```jsx
-    good - localhost:8080/delete-post/1
-    bad  - localhost:8080/post/1
+    good - localhost:8080/post/1
+    bad  - localhost:8080/delete-post/1
     ```
     
 
